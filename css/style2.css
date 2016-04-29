@@ -55,11 +55,11 @@
 
 --*/
 .homelogo {
-	font-weight: 700;
+	font-weight: 600;
 	font-size: 1.2em;
 	letter-spacing: 0em;
 	color: black;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 	
@@ -75,33 +75,33 @@
 
 .projmenu1{
 	color: #303031 ;
-	font-family: 'Raleway', sans-serif;
+	font-family:'Open Sans', sans-serif;
 	
 	font-size: 1.1em;
 }
 
 .menu1{
 	color: #303031 ;
-	font-family: 'Raleway', sans-serif;
+	font-family:'Open Sans', sans-serif;
 	font-weight: bold;
 	font-size: 1.1em;
 }
 
 .menu2{
 	color: #303031 ;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 1.1em;
 }
 
 .contactmenu1{
 	color: #303031 ;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 1.1em;
 }
 
 .contactmenu2{
 	color: #303031 ;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 1.1em;
 	font-weight: bold;
 }
@@ -183,6 +183,7 @@
    margin: 0 !important;
    opacity: 1;
    transition: all .2s ease-in-out;
+
 }
 
 
@@ -207,7 +208,20 @@
 	
 }
 
+.userflow3 {
+  	padding-bottom: 4em;
+   opacity: 1;
+   transition: all .2s ease-in-out;
 
+}
+
+
+.userflow3:hover {
+	opacity: 1;
+	transform: scale(1.5);
+	
+	
+}
 
 
 
@@ -240,16 +254,16 @@
 }
 
 .bigtextintro {
-	padding-top: 6em;
+	padding-top: 5em;
 	font-family: 'Noto Serif', serif;
-	font-size: 2em;
+	font-size: 2.3em;
 	line-height: 1.5em;
 }
 
 .bigtext {
 	padding-top: 3em;
 	font-family: 'Noto Serif', serif;
-	font-size: 2em;
+	font-size: 2.3em;
 	line-height: 1.5em;
 }
 
@@ -258,6 +272,7 @@
 	font-size: 1.6em;
 	line-height: 1.5em;
 	padding-top: 1em;
+	padding-bottom: 1em;
 }
 
 .chicken {
@@ -265,23 +280,24 @@
 }
 
 .aboutheader {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
 	font-size: 3.5em;
 	color:  #303031 ;
-	padding-top: 3em;
+	padding-top: 1em;
 }
 
 .aboutheader2 {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 600;
-	font-size: 1.8em;
+	font-size: 1.6em;
 	color: #303031 ;
-	padding-bottom: 8.5em;
+	padding-bottom: 5.5em;
+
 }
 
 .contactheader {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
 	font-size: 3.5em;
 	color:  #303031 ;
@@ -308,19 +324,19 @@
 
 .projectheader2 {
 	font-family: 'Open Sans', sans-serif;
-	font-weight: 700;
+	font-weight: 600;
 	font-size: 1.5em;
 	color: #FAC024;
-	padding-top: 2em;
+	padding-top: 0em;
 }
 
 
 .projecttitledealdash {
 	font-family: 'Open Sans', sans-serif;
-	font-weight: 700;
-	font-size: 4.5em;
+	font-weight: 600;
+	font-size: 4.9em;
 	color: #FAC024;
-	padding-top: 1em;
+	padding-top: 0em;
 }
 
 
@@ -345,7 +361,7 @@
 
 
 .hoverreveal {
-	opacity: .8;
+	opacity: 1;
 }
 
 .hoverreveal:hover {
@@ -375,20 +391,6 @@
 
 }
 
-/*--
-
-.projectheader {
-	font-family: 'Oswald';
-	opacity: .7;
-	
-
-}
-
-.projectheader:hover {
-	transition: opacity 1s ease-in-out;
-    opacity: 1;
-
-}---*/
 
 
 .jumbotitle {
@@ -398,10 +400,11 @@
 
 .notetext {
 	color: gray;
-	padding-top: 1em;
 	font-size: 1em;
-	padding-bottom: 3em;
+	padding-bottom: 1em;
+	padding-top: 2em;
 	font-style: italic;
+
 }
 
 
@@ -410,20 +413,21 @@
 
 .t3pad {
 	margin-top: -2.2em;
-	background-color: #303031;
+	background-color: #4A4A4A;
 	padding-right: 2em;
 	padding-left: 2em;
 }
 
 .colpad {
-	padding-left: 3em;
-	padding-right: 3em;
+	padding-left: 2.5em;
+	padding-right: 2.5em;
 	color: white;
-	padding-top: 2.5em;
-	padding-bottom: 3.5em;
+	padding-top: 1.5em;
+	padding-bottom: 2em;
 	font-family: 'Open Sans', sans-serif;
-	font-weight: 300;
+	font-weight: 400;
 	line-height: 1.5em;
+	font-size: 1.1em;
 
 }
 
@@ -555,16 +559,45 @@ a:active {
 }
 
 .projectimg {
-	padding-top: 4em;
+	padding-bottom: 2em;
+
+}
+
+.projectimgsadgif {
+	padding-bottom: 5em;
 
 }
 
 
-/*-- redo about to display projects---*/
+
+/*-- animate.css stuff---*/
 
 
 
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
 
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
 
 
 
