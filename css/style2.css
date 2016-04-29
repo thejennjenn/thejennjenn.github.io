@@ -279,6 +279,16 @@
 
 }
 
+
+.projdetails {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 1.2em;
+	color: #303031 ;
+	padding-bottom: 1em;
+
+}
+
 .aboutheader {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
@@ -348,7 +358,7 @@
 	font-weight: 400;
 	font-size: 1.5em;
 	color: #303031 ;
-	padding-bottom: 5em;
+	padding-bottom: 4em;
 }
 
 
@@ -383,6 +393,19 @@
 	font-weight: 600;
 	font-size: 1.8em;
 	opacity: .5;
+}
+
+.backtohome {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 500;
+	font-size: 1.4em;
+	color: #303031 ;
+	padding-bottom: 2em;
+}
+
+.backtohome:hover {
+	font-weight: 600; 
+
 }
 
 .relatedtext:hover {
@@ -572,32 +595,6 @@ a:active {
 
 /*-- animate.css stuff---*/
 
-
-
-@-webkit-keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-
-  to {
-    opacity: 1;
-  }
-}
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-
-  to {
-    opacity: 1;
-  }
-}
-
-.fadeIn {
-  -webkit-animation-name: fadeIn;
-  animation-name: fadeIn;
-}
 
 
 
