@@ -1,8 +1,8 @@
 $(document).ready(function() {
- // all your jQuery code goes in here!
+ 
 
 
-
+/*! 
 $(document).ready(function() {
     
     
@@ -27,7 +27,7 @@ $(document).ready(function() {
     
 });
 
-
+*/
 
 
 $(document).ready(function(){
