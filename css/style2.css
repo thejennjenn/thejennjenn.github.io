@@ -1,3 +1,25 @@
+
+
+.bodyfont {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.1em;
+}
+
+.bodypad {
+	padding-left: 4em;
+	padding-right: 4em;
+}
+
+.firsttoppadding {
+	padding-top: 3em;
+}
+
+.toprowpad {
+	padding-top: 2em;
+
+}
+
+
 /**{
 	border: 1px solid red !important;
 } */
@@ -235,7 +257,7 @@
 }
 
 .userflow3 {
-  	padding-bottom: 4em;
+  	padding-bottom: 0em;
    opacity: 1;
    transition: all .2s ease-in-out;
 
@@ -244,7 +266,7 @@
 
 .userflow3:hover {
 	opacity: 1;
-	transform: scale(1.5);
+	transform: scale(1.05);
 	
 	
 }
@@ -325,7 +347,7 @@
 
 .aboutheader2 {
 	font-family: 'Open Sans', sans-serif;
-	font-weight: 600;
+	font-weight: 500;
 	font-size: 1.6em;
 	color: #303031 ;
 	padding-bottom: 5.5em;
@@ -450,8 +472,9 @@
 .notetext {
 	color: gray;
 	font-size: 1em;
-	padding-bottom: 1em;
-	padding-top: 2em;
+	padding-bottom: 0em;
+	padding-top: 1em;
+	padding-bottom: 2em;
 	font-style: ;
 
 }
@@ -608,12 +631,13 @@ a:active {
 }
 
 .projectimg {
-	padding-bottom: 2em;
+	padding-bottom: 0em;
 
 }
 
 .projectimgsadgif {
-	padding-bottom: 5em;
+	padding-top: 2em;
+	padding-bottom: 2em;
 
 }
 
