@@ -33,7 +33,7 @@ a:visited {
 }
 a:hover {
     color:#292929 ;
-    background-color: ;
+    background-color:r ;
     text-decoration: underline;
 }
 a:active {
@@ -53,6 +53,50 @@ a:active {
     clear: both;
     display: block;
 }
+
+.button-1 {
+    background-color: white;
+    color: #34B8EA;
+    border: 2px solid #34B8EA;
+    padding: 12px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 0px 0px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+.button-2 {
+    background-color: #D37D2A;
+    border: none;
+    color: white;
+    padding: 12px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 0px 0px;
+    cursor: pointer;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.button-3 {
+    background-color: #F2C75D;
+    border: none;
+    color: white;
+    padding: 12px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 0px 0px;
+    cursor: pointer;
+    font-family: 'Roboto Mono', monospace;
+}
+
+
 
 
 /* For mobile phones: */
@@ -83,8 +127,8 @@ a:active {
 
 @media only screen and (min-width: 768px) {
     .desktop {
-        padding-left: 4em;
-        padding-right: 4em;
+        padding-left: 13em;
+        padding-right: 13em;
     }  
 }
 
@@ -105,16 +149,20 @@ a:active {
 
 .intro-blurb {
     font-weight: 300;
-    font-size: 23px;
-    line-height: 45px;
+    font-size: 24px;
+    line-height: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
 
 }
 
 @media only screen and (min-width: 768px) {
     .intro-blurb {
     font-weight: 300;
-    font-size: 28px;
-    line-height: 45px;
+    font-size: 24px;
+    line-height: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
 
 } 
 }
@@ -128,8 +176,9 @@ a:active {
 }
 
 .intro-blurb2row {
-    margin-bottom: 4em;
+    margin-bottom: 0em;
 }
+
 
 
 /*-----work-wrapper------*/
@@ -144,8 +193,8 @@ a:active {
 .workbackground1 {
     height:100%;
     background-color: white;
-    padding-top: 3em;
-    padding-bottom: 3em;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
 }
 
 .workbackground2 {
@@ -185,7 +234,6 @@ a:active {
 
 .cover_dealdash {
     max-width: 100%;
-    box-shadow: 0px 5px 25px #808080;
     margin-left: 0em;
     max-height: 30em;
     display: block;
@@ -205,9 +253,8 @@ a:active {
 
 .cover_lanturn {
     max-width: 100%;
-   
     margin-left: 0em;
-    max-height: 60em;
+    max-height: 100em;
     display: block;
     margin: auto;
 }
@@ -237,26 +284,47 @@ a:active {
 
 .work-content-dark {
     color: #292929;
+    padding-right: 1em;
+    padding-top: -1em;
 }
 
 .work-title {
-    font-weight: 300;
-    font-size: 72px;
-    font-family: 'Signika', sans-serif;
+    font-size: 32px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
 }
 
-.work-info {
-    font-weight: 600;
-    font-size: 18px;
+.work-info-1 {
+    font-weight: 400;
+    font-size: 13px;
     padding-bottom: 1em;
-    font-family: 'Signika', sans-serif;;
+    font-family: 'Roboto Mono', monospace;
+    color: #34B8EA;
+}
+
+.work-info-2 {
+    font-weight: 400;
+    font-size: 13px;
+    padding-bottom: 1em;
+    font-family: 'Roboto Mono', monospace;
+    color: #D37D2A;
+}
+
+
+
+.work-info-3 {
+    font-weight: 400;
+    font-size: 13px;
+    padding-bottom: 1em;
+    font-family: 'Roboto Mono', monospace;
+    color: #F2C75D;
 }
 
 .work-description {
-    font-size: 15px;
+    font-size: 13px;
     opacity: .9;
     padding-bottom: 2em;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto Mono', monospace;
 }
 
 .work-viewmore {
@@ -280,12 +348,16 @@ a:active {
     }
 
     .work-content-dark {
-        padding-top: 5em;
-        padding-bottom: 5em;
+        padding-top: 0em;
+        padding-bottom: 0em;
+        margin-right: 2em;
     }
 
+    .work-thumbnail {
+        
+    }
     .work-thumbnail-storybubbles {
-    padding-top: 6em;
+    padding-top: 0em;
     }
 
     .work-thumbnail-radiotopia {
@@ -307,7 +379,7 @@ a:active {
 
 @media only screen and (min-width: 768px) {
 .intro-wrapper {
-    margin-bottom: 3em;
+    margin-bottom: 0em;
     margin-top: 3.5em;
     }
 }
@@ -323,17 +395,23 @@ a:active {
     margin: auto;
 }
 
+.profile-content {
+    margin-right: 2em;
+}
+
 .profile-name {
-    text-align: center;
-    margin-bottom: 1em;
-    font-family: 'Signika', sans-serif;
+    text-align: left;
+    margin-bottom: 0em;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 600;
-    font-size: 1.2em;
+    font-size: 48px;
+    line-height: 1em;
+  
 }
 
 .social-pic {
     border-radius: 50%;
-    max-width:1.9em;
+    max-width:1em;
     
 }
 
@@ -341,7 +419,7 @@ a:active {
     display: inline;
     display: block;
     margin: auto;
-    text-align: center;
+    text-align: ;
 }
 
 .social-item{
@@ -405,8 +483,8 @@ a:active {
 
 
 .footer {
-    color: gray;
-    font-family: 'Signika';
+    color: ;
+    font-family: 'Roboto Mono', monospace;
     text-align: center;
 }
 
